@@ -1,12 +1,12 @@
 Summary:	A graphical regular expression explorer
 Summary(pl):	Graficzny eksplorator wyra¿eñ regularnych
 Name:		gregexp
-Version:	0.2.1
+Version:	0.3
 Release:	0.1
 License:	GPL	
 Group:		Development/Tools
 Source0:	http://dentrassi.de/download/%{name}/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	ed3a9d13c050379d9062110b614dd1c3
+# Source0-md5:	67310625715c4f13ec65e2ebb90a3654
 URL:		http://dentrassi.de/download/gregexp/
 BuildRequires:	autoconf
 BuildRequires:	automake
