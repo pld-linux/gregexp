@@ -11,6 +11,8 @@ URL:		http://dentrassi.de/download/gregexp/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	glib2-devel
+BuildRequires:	libglade-devel
+BuildRequires:	libgnomeui-devel
 BuildRequires:	pcre-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
