@@ -2,12 +2,13 @@ Summary:	A graphical regular expression explorer
 Summary(pl):	Graficzny eksplorator wyra¿eñ regularnych
 Name:		gregexp
 Version:	0.3
-Release:	1
+Release:	2
 License:	GPL	
 Group:		Development/Tools
 Source0:	http://dentrassi.de/download/%{name}/%{version}/%{name}-%{version}.tar.gz
 # Source0-md5:	67310625715c4f13ec65e2ebb90a3654
 URL:		http://dentrassi.de/download/gregexp/
+Patch0:		%{name}-desktop.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	glib2-devel
@@ -26,6 +27,7 @@ wyra¿eñ regularnych.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 glib-gettextize --copy --force
