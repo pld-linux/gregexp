@@ -8,6 +8,10 @@ Group:		Development/Tools
 Source0:	http://dentrassi.de/download/%{name}/%{version}/%{name}-%{version}.tar.gz
 # Source0-md5:	ed3a9d13c050379d9062110b614dd1c3
 URL:		http://dentrassi.de/download/gregexp/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	glib2-devel
+BuildRequires:	pcre-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -22,8 +26,6 @@ wyra¿eñ regularnych.
 %setup -q
 
 %build
-# if ac/am/* rebuilding is necessary, do it in this order and add
-# appropriate BuildRequires
 glib-gettextize --copy --force
 %{__aclocal}
 %{__autoconf}
@@ -34,8 +36,6 @@ glib-gettextize --copy --force
 
 %install
 rm -rf $RPM_BUILD_ROOT
-# create directories if necessary
-#install -d $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
