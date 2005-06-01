@@ -15,6 +15,8 @@ BuildRequires:	glib2-devel
 BuildRequires:	libglade-devel
 BuildRequires:	libgnomeui-devel
 BuildRequires:	pcre-devel
+BuildRequires:	pkgconfig
+BuildRequires:	popt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
