@@ -5,18 +5,17 @@ Version:	0.3
 Release:	2
 License:	GPL
 Group:		Development/Tools
-Source0:	http://dentrassi.de/download/%{name}/%{version}/%{name}-%{version}.tar.gz
+Source0:	http://dentrassi.de/download/gregexp/%{version}/%{name}-%{version}.tar.gz
 # Source0-md5:	67310625715c4f13ec65e2ebb90a3654
 URL:		http://dentrassi.de/download/gregexp/
 Patch0:		%{name}-desktop.patch
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	glib2-devel
-BuildRequires:	libglade-devel
-BuildRequires:	libgnomeui-devel
+BuildRequires:	libglade2-devel >= 2.0
+BuildRequires:	libgnomeui-devel >= 2.0
 BuildRequires:	pcre-devel
 BuildRequires:	pkgconfig
-BuildRequires:	popt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -24,8 +23,8 @@ A graphical regular expression explorer that uses PCRE as regular
 expression engine. 
 
 %description -l pl
-Graficzny eksplorator wyra¿eñ regularnych, który u¿ywa PCRE jako silnika
-wyra¿eñ regularnych.
+Graficzny eksplorator wyra¿eñ regularnych, który u¿ywa PCRE jako
+silnika wyra¿eñ regularnych.
 
 %prep
 %setup -q
