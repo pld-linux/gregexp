@@ -1,5 +1,5 @@
 Summary:	A graphical regular expression explorer
-Summary(pl):	Graficzny eksplorator wyraøeÒ regularnych
+Summary(pl.UTF-8):   Graficzny eksplorator wyra≈ºe≈Ñ regularnych
 Name:		gregexp
 Version:	0.3
 Release:	2
@@ -22,9 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A graphical regular expression explorer that uses PCRE as regular
 expression engine. 
 
-%description -l pl
-Graficzny eksplorator wyraøeÒ regularnych, ktÛry uøywa PCRE jako
-silnika wyraøeÒ regularnych.
+%description -l pl.UTF-8
+Graficzny eksplorator wyra≈ºe≈Ñ regularnych, kt√≥ry u≈ºywa PCRE jako
+silnika wyra≈ºe≈Ñ regularnych.
 
 %prep
 %setup -q
