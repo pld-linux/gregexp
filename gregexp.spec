@@ -1,5 +1,5 @@
 Summary:	A graphical regular expression explorer
-Summary(pl.UTF-8):   Graficzny eksplorator wyrażeń regularnych
+Summary(pl.UTF-8):	Graficzny eksplorator wyrażeń regularnych
 Name:		gregexp
 Version:	0.3
 Release:	2
