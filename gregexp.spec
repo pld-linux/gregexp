@@ -1,12 +1,12 @@
 Summary:	A graphical regular expression explorer
 Summary(pl.UTF-8):	Graficzny eksplorator wyrażeń regularnych
 Name:		gregexp
-Version:	0.3
-Release:	2
+Version:	0.4
+Release:	1
 License:	GPL
 Group:		Development/Tools
 Source0:	http://dentrassi.de/download/gregexp/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	67310625715c4f13ec65e2ebb90a3654
+# Source0-md5:	ac1a6421b5cae83f6c541d2263f8d533
 URL:		http://dentrassi.de/download/gregexp/
 Patch0:		%{name}-desktop.patch
 BuildRequires:	autoconf
@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 A graphical regular expression explorer that uses PCRE as regular
-expression engine. 
+expression engine.
 
 %description -l pl.UTF-8
 Graficzny eksplorator wyrażeń regularnych, który używa PCRE jako

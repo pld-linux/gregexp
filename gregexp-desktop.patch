@@ -11,7 +11,6 @@
 +Comment[pl]=Grapficzny eksplorator wyrażeń regularnych
  Terminal=false
 -Icon=gregexp.png
-\ No newline at end of file
 +Icon=gregexp.png
 +Categories=GTK;GNOME;Utility;
 +Encoding=UTF-8
