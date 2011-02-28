@@ -1,6 +1,6 @@
---- gregexp-0.3/gregexp.desktop~	Fri Jul 16 09:27:56 2004
-+++ gregexp-0.3/gregexp.desktop	Fri Jul 16 09:33:01 2004
-@@ -1,7 +1,12 @@
+--- gregexp-0.4/gregexp.desktop	2007-06-08 18:14:56.000000000 +0300
++++ gregexp-0.4/gregexp.desktop	2011-02-28 22:51:55.301905255 +0200
+@@ -1,8 +1,11 @@
  [Desktop Entry]
  Name=GRegExp Explorer
 +Name[pl]=Eksplorator GRegExp
@@ -10,8 +10,7 @@
 +Comment=Graphical Regular Expression Explorer
 +Comment[pl]=Grapficzny eksplorator wyrażeń regularnych
  Terminal=false
--Icon=gregexp.png
-+Icon=gregexp.png
+ Icon=gregexp.png
+-Categories=Application;Development;
 +Categories=GTK;GNOME;Utility;
 +Encoding=UTF-8
-+# vi: encoding=utf-8
