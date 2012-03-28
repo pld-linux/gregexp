@@ -2,7 +2,7 @@ Summary:	A graphical regular expression explorer
 Summary(pl.UTF-8):	Graficzny eksplorator wyrażeń regularnych
 Name:		gregexp
 Version:	0.4
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Tools
 Source0:	http://dentrassi.de/download/gregexp/%{version}/%{name}-%{version}.tar.gz
