@@ -28,7 +28,7 @@ silnika wyrażeń regularnych.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 glib-gettextize --copy --force
